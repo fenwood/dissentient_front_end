@@ -1,43 +1,40 @@
 {
-  "name": "hogtown",
+  "name": "tmp-remix-netlify",
   "private": true,
   "sideEffects": false,
   "type": "module",
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev --manual",
-    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "start": "remix-serve ./build/index.js"
+    "dev": "remix dev",
+    "start": "netlify serve",
+    "typecheck": "tsc -b"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.12.1",
-    "@remix-run/css-bundle": "^2.4.1",
-    "@remix-run/node": "^2.4.1",
-    "@remix-run/react": "^2.4.1",
-    "@remix-run/serve": "^2.4.1",
+    "@emailjs/browser": "^4.1.0",
+    "@netlify/functions": "^2.0.0",
+    "@netlify/remix-adapter": "^2.0.0",
+    "@remix-run/node": "^2.6.0",
+    "@remix-run/react": "^2.6.0",
     "animate.css": "^4.1.1",
     "axios": "^1.6.7",
-    "framer-motion": "^10.17.6",
-    "isbot": "^3.6.8",
+    "cross-env": "^7.0.3",
+    "framer-motion": "^11.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-google-recaptcha": "^3.1.0",
-    "react-google-recaptcha-ultimate": "^1.2.2",
     "react-icons": "^5.0.1",
-    "react-parallax-tilt": "^1.7.209",
-    "react-tilt": "^1.0.2",
-    "react-toastify": "^10.0.3",
-    "remix-toast": "^1.1.0"
+    "react-parallax-tilt": "^1.7.210"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.4.1",
-    "eslint": "^8.38.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "@remix-run/dev": "^2.6.0",
+    "@remix-run/eslint-config": "^2.6.0",
+    "@remix-run/serve": "^2.6.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.27.0",
+    "typescript": "^5.2.2"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18"
   }
 }
