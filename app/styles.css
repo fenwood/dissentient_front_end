@@ -1,23 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
 :root {
-    --orange_color: #da722c;
-    --dark-blue_color: #023047;
-    --light_blue_color: #6f7dfb;
-    --light_color: #e8f7fb;
-    --dark_color: #070917;
-    --main_color: #fef7e5;
-    --accent_color: #fc5356;
-    --heading_color: #20247b;
-    } 
+  --orange_color: #da722c;
+  --dark-blue_color: #023047;
+  --light_blue_color: #6f7dfb;
+  --light_color: #e8f7fb;
+  --dark_color: #070917;
+  --main_color: #fef7e5;
+  --accent_color: #fc5356;
+  --heading_color: #20247b;
+}
 
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-        transition: all 0.4s ease;;
-} 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.4s ease;
+}
 
 .text-green {
   color: green;
@@ -75,7 +73,8 @@
   margin-left: 3rem;
 }
 
-.lr-container, .lr-container-right {
+.lr-container,
+.lr-container-right {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -102,7 +101,8 @@ w-45 {
   width: 45%;
 }
 
-.lr-container img, .lr-container-right img {
+.lr-container img,
+.lr-container-right img {
   max-width: 45%;
   margin-bottom: 1rem;
   object-fit: contain;
@@ -112,8 +112,7 @@ w-45 {
 }
 
 .shadow {
-  box-shadow: -2px -1px 15px 16px rgba(0,0,0,0.75);
-
+  box-shadow: -2px -1px 15px 16px rgba(0, 0, 0, 0.75);
 }
 
 .lr-content {
@@ -128,116 +127,116 @@ w-45 {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    flex-flow: wrap;
-    width: 90%;
-    margin: 50px auto;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: wrap;
+  width: 90%;
+  margin: 50px auto;
+  gap: 30px;
 }
 
 .heading {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
 }
 
 .mt {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Navigation Bar */
 .nav-container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-  }
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
 
-  .nav-container img {
-    height: 55px;
-    width: auto;
-  }
-  
-  .navbar {
-    height: 60px;
-    background-color: var(--main_color);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 99;
-  }
+.nav-container img {
+  height: 55px;
+  width: auto;
+}
 
- .lr-left {
-   width: 450px;
- }
-  
-  .nav-elements ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-  }
-  
-  .nav-elements ul li:not(:last-child) {
-    margin-right: 60px;
-  }
-  
-  .nav-elements ul a {
-    font-size: 16px;
-    font-weight: 400;
-    color: #2f234f;
-    text-decoration: none;
-  }
-  .nav-elements ul a:hover {
-    color: #000;
-    font-weight: 700;
-    transition: all 0.3s ease-in;
-  }
-  
-  .nav-elements ul a.active {
-    color: #574c4c;
-    font-weight: 500;
-    position: relative;
-  }
-  
-  .nav-elements ul a.active::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #574c4c;
-  }
+.navbar {
+  height: 60px;
+  background-color: var(--main_color);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.lr-left {
+  width: 450px;
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f234f;
+  text-decoration: none;
+}
+.nav-elements ul a:hover {
+  color: #000;
+  font-weight: 700;
+  transition: all 0.3s ease-in;
+}
+
+.nav-elements ul a.active {
+  color: #574c4c;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-elements ul a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #574c4c;
+}
 
 /* Wrapper */
 .wrapper {
-    max-width: 100%;
-    margin: 0 auto; 
-    margin-top: 4rem;
-   }
-   
-   /* Header */
-   header {
-   background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
-   height: 100vh;
-   width: 100%;
-   }
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
 
-   nav .logo {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2rem;
-    color: #000;
-   }
+/* Header */
+header {
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  height: 100vh;
+  width: 100%;
+}
 
-  .logoBody {
+nav .logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #000;
+}
+
+.logoBody {
   transform: translateZ(55px);
   padding: 15px;
   border-radius: 25px;
@@ -245,129 +244,125 @@ w-45 {
   font-size: 20px;
   color: #fff;
   background: #000;
+}
+
+.hamburger-img {
+  width: auto;
+  height: 40px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .lr-container {
+    flex-direction: column;
   }
-   
-   .hamburger-img {
-       width: auto;
-       height: 40px;
-   }
-
-   .menu-icon {
-       display: none;
-   }
-
-
-
-   @media (max-width: 600px) {
-
-    .lr-container {
-      flex-direction: column;
-    }
-    .lr-container-right {
-      flex-direction: column-reverse;
-    }
-    .lr-container img, .lr-container-right img {
-      max-width: 100%;
-      align-self: center;
-    }
-    .lr-content {
-      margin: 0 auto;
-      width: 100%;
-    }
-
-
-
-    .menu-icon {
-      display: block;
-      cursor: pointer;
-    }
-  
-    .nav-elements {
-      position: absolute;
-      right: 0;
-      top: 60px;
-      background-color: #fef7e5;
-      width: 0px;
-      height: calc(100vh - 60px);
-      transition: all 0.3s ease-in;
-      overflow: hidden;
-      z-index: 1000;
-    }
-  
-    .nav-elements.active {
-      width: 270px;
-    }
-  
-    .nav-elements ul {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .nav-elements ul li {
-      margin-right: unset;
-      margin-top: 22px;
-    }
+  .lr-container-right {
+    flex-direction: column-reverse;
   }
-
-  /* Hero Section */
-.hero-section {
-    display: flex;
-    height: 100vh;
+  .lr-container img,
+  .lr-container-right img {
+    max-width: 100%;
+    align-self: center;
+  }
+  .lr-content {
+    margin: 0 auto;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 60px;
-   }
-   
-   .hero-section .left h1 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 900;
-    font-size: 50px;
-    line-height: 125%;
-    color: #FFF;
-    margin-bottom: 0;
-   }
-   
-   .hero-section .left p {
-    font-family: "Poppins", sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 200%;
-    color: #FFF;
-    margin-bottom: 30px;
-   }
-   
-   .hero-section .left {
-    width: 457px;
-   }
-   
-   .hero-section .right img {
-    height: 520px;
-    vertical-align: middle;
-   }
-   
-   .hero-section .right {
-    align-self: flex-end;
-   }
-   
-   .achievement-cards {
-     display: none;
-   }
+  }
 
-   .achievement-card {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-elements {
     position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #fef7e5;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    z-index: 1000;
   }
-  
-  .achievement-card .content {
-    border-radius: 24px;
-    background: #fff;
-    padding: 8px 32px;
+
+  .nav-elements.active {
+    width: 270px;
   }
-  
-  .achievement-card h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    color: var(--dark-blue-color);
-    margin: 0;
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
   }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.hero-section .left h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 125%;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.hero-section .left p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.hero-section .left {
+  width: 457px;
+}
+
+.hero-section .right img {
+  height: 520px;
+  vertical-align: middle;
+}
+
+.hero-section .right {
+  align-self: flex-end;
+}
+
+.achievement-cards {
+  display: none;
+}
+
+.achievement-card {
+  position: absolute;
+}
+
+.achievement-card .content {
+  border-radius: 24px;
+  background: #fff;
+  padding: 8px 32px;
+}
+
+.achievement-card h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--dark-blue-color);
+  margin: 0;
+}

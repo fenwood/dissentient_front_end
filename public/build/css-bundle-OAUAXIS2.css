@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap";
 
 /* css-side-effects-plugin-ns:app/components/Footer/footer.css */
@@ -318,7 +317,7 @@ nav .logo {
   font-weight: 900;
   font-size: 50px;
   line-height: 125%;
-  color: #FFF;
+  color: #fff;
   margin-bottom: 0;
 }
 .hero-section .left p {
@@ -326,7 +325,7 @@ nav .logo {
   font-weight: normal;
   font-size: 16px;
   line-height: 200%;
-  color: #FFF;
+  color: #fff;
   margin-bottom: 30px;
 }
 .hero-section .left {
@@ -4529,4 +4528,4 @@ animate.css/animate.css:
   * Copyright (c) 2020 Animate.css
   *)
 */
-/*# sourceMappingURL=/build/css-bundle-AKDQMEHC.css.map */
+/*# sourceMappingURL=/build/css-bundle-OAUAXIS2.css.map */
