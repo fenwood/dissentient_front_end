@@ -418,67 +418,67 @@ var Footer = () => {
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "row", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Link, { to: "/about", children: "About" }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
-        lineNumber: 28,
-        columnNumber: 25
+        lineNumber: 29,
+        columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
         lineNumber: 28,
-        columnNumber: 21
+        columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Link, { to: "/services", children: "Our Services" }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
-        lineNumber: 29,
-        columnNumber: 25
+        lineNumber: 32,
+        columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
-        lineNumber: 29,
-        columnNumber: 21
+        lineNumber: 31,
+        columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Link, { to: "/contact", children: "Contact Us" }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
-        lineNumber: 30,
-        columnNumber: 25
+        lineNumber: 35,
+        columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
-        lineNumber: 30,
-        columnNumber: 21
+        lineNumber: 34,
+        columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Link, { to: "/privacy", children: "Privacy Policy" }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
-        lineNumber: 31,
-        columnNumber: 25
+        lineNumber: 38,
+        columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
-        lineNumber: 31,
-        columnNumber: 21
+        lineNumber: 37,
+        columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Link, { to: "#", children: "FAQ" }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
-        lineNumber: 32,
-        columnNumber: 25
+        lineNumber: 41,
+        columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/components/Footer/Footer.jsx",
-        lineNumber: 32,
-        columnNumber: 21
+        lineNumber: 40,
+        columnNumber: 13
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/Footer/Footer.jsx",
       lineNumber: 27,
-      columnNumber: 17
+      columnNumber: 11
     }, this) }, void 0, false, {
       fileName: "app/components/Footer/Footer.jsx",
       lineNumber: 26,
-      columnNumber: 13
+      columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "row", children: "Hogtown Digital Copyright \xA9 2023  - All rights reserved" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "row", children: "Dissentient Digital Copyright \xA9 2023 - All rights reserved" }, void 0, false, {
       fileName: "app/components/Footer/Footer.jsx",
-      lineNumber: 35,
-      columnNumber: 13
+      lineNumber: 45,
+      columnNumber: 9
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/Footer/Footer.jsx",
     lineNumber: 25,
-    columnNumber: 9
+    columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/components/Footer/Footer.jsx",
     lineNumber: 24,
@@ -812,49 +812,19 @@ function App() {
         lineNumber: 119,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&display=swap", rel: "stylesheet" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@400;700&display=swap", rel: "stylesheet" }, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 120,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 122,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap", rel: "stylesheet" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 123,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 125,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&family=Raleway:wght@400;700&display=swap", rel: "stylesheet" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 126,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 128,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap", rel: "stylesheet" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 129,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Meta, {}, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 132,
-        columnNumber: 9
-      }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 133,
+        lineNumber: 124,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
@@ -865,37 +835,37 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Navigtion_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 136,
+        lineNumber: 127,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Outlet, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 138,
+        lineNumber: 129,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 139,
+        lineNumber: 130,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 140,
+        lineNumber: 131,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 141,
+        lineNumber: 132,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Footer_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 142,
+        lineNumber: 133,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 135,
+      lineNumber: 126,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
@@ -916,4 +886,4 @@ export {
   App as default,
   links
 };
-//# sourceMappingURL=/build/root-RDSYQDH5.js.map
+//# sourceMappingURL=/build/root-NEHJJDCZ.js.map

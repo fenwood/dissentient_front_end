@@ -16,7 +16,9 @@ import { useLoaderData } from "@remix-run/react"
 
 export const meta = () => {
   return [
-    { title: "Hogtown Digital - Creating digital experiences | Web Design" },
+    {
+      title: "Dissentient Digital - Creating digital experiences | Web Design",
+    },
   ]
 }
 

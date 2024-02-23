@@ -9486,11 +9486,11 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/_index.jsx"
   );
-  import.meta.hot.lastModified = "1708714183112.2803";
+  import.meta.hot.lastModified = "1708719293961.7114";
 }
 var meta = () => {
   return [{
-    title: "Hogtown Digital - Creating digital experiences | Web Design"
+    title: "Dissentient Digital - Creating digital experiences | Web Design"
   }];
 };
 var images = [hero11_default, "https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"];
@@ -9627,4 +9627,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-USDQOZPA.js.map
+//# sourceMappingURL=/build/routes/_index-UZ2Q2VCX.js.map
