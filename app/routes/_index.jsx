@@ -68,16 +68,19 @@ export default function Index() {
         </div>
         <div className="container">
           <Card
+            cdn={loaderData.ENV.CDN}
             heading="Website & App Development"
             img={Design}
             body="We build custom, high performance websites to meet your business needs with a focus on SEO, accessibility and site speed."
           />
           <Card
+            cdn={loaderData.ENV.CDN}
             heading="Data & Analytics"
             img={Hosting}
             body="From setting up Google Analytics and building out data pipelines to custom web scraping, we can help with all your data needs."
           />
           <Card
+            cdn={loaderData.ENV.CDN}
             heading="Digital Marketing"
             img={Analytics}
             body="Want to aquire leads through paid media but don't know where to start? We can help run your search, display and social campaigns with any budget."
@@ -96,24 +99,28 @@ export default function Index() {
           content="We offer end-to-end full-service website design for small businesses that includes designing a modern custom website, hosting and domain management and unlimited updates starting from just $50 per month.  All our websites include Google Analytics and are built to be fully accessible, highly performant and SEO-friendly leveraging modern technology stacks. "
           img={webImage}
           left={true}
+          cdn={loaderData.ENV.CDN}
         />
         <SectionContainer
           heading="Analytics"
           content="Digital Analytics. From tag management to implementing or modifying Google Analytics, our team has experience in most leading analytics tools including Adobe and Google Analytics / Tag manager, Tableau and Looker studio for dashboards, and data management platforms such as Big Query and Domo."
           img={analyticsImage}
           left={false}
+          cdn={loaderData.ENV.CDN}
         />
         <SectionContainer
           heading="Data"
           content="Is there data that  you want but cannot get in the format you like? We can scrape any public data and give it to you in a csv or Excel format. We build custom web scrapers and can query almost any website."
           img={dataImage}
           left={true}
+          cdn={loaderData.ENV.CDN}
         />
         <SectionContainer
           heading="Digital Marketing"
           content="Don’t have time to manage and ad campaign? Let us help. We have several years experience running digital campaigns across several industries and apply a data driven approach to ensure you are targeting the right people on the right platforms with the right message."
           img={seoImage}
           left={false}
+          cdn={loaderData.ENV.CDN}
         />
       </div>
       <div className="wrapper">
