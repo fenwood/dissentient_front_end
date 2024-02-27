@@ -19,6 +19,15 @@ export const meta = () => {
     {
       title: "Dissentient Digital - Creating digital experiences | Web Design",
     },
+    {
+      property: "og:title",
+      content: "Dissentient Digital - Creating digital experiences",
+    },
+    {
+      name: "description",
+      content:
+        "Dissentient Digital is a Toronto based digital solutions agency specializing in building low-cost high-performance websites for small businesses, digital advertising campaigns, SEO and analytics",
+    },
   ]
 }
 
