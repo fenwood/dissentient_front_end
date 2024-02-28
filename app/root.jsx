@@ -15,6 +15,11 @@ import "./styles.css"
 
 export const links = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
+  {
+    rel: "preload",
+    href: "https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@400;700&display=swap",
+    as: "font",
+  },
 ]
 
 export function ErrorBoundary() {
@@ -124,11 +129,11 @@ export default function App() {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@400;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@400;700&display=swap"
           rel="stylesheet"
-        ></link>
+        ></link> */}
 
         <Meta />
         <Links />

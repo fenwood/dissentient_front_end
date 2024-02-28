@@ -516,7 +516,11 @@ if (import.meta) {
 var links = () => [...cssBundleHref ? [{
   rel: "stylesheet",
   href: cssBundleHref
-}] : []];
+}] : [], {
+  rel: "preload",
+  href: "https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@400;700&display=swap",
+  as: "font"
+}];
 function ErrorBoundary() {
   _s2();
   const error = useRouteError();
@@ -525,88 +529,88 @@ function ErrorBoundary() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("head", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { charSet: "utf-8" }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 36,
+          lineNumber: 40,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width, initial-scale=1" }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 37,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
-          fileName: "app/root.jsx",
-          lineNumber: 38,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&display=swap", rel: "stylesheet" }, void 0, false, {
-          fileName: "app/root.jsx",
-          lineNumber: 39,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
-          fileName: "app/root.jsx",
           lineNumber: 41,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap", rel: "stylesheet" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 42,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&display=swap", rel: "stylesheet" }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 44,
+          lineNumber: 43,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&family=Raleway:wght@400;700&display=swap", rel: "stylesheet" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 45,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap", rel: "stylesheet" }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 47,
+          lineNumber: 46,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap", rel: "stylesheet" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 48,
           columnNumber: 11
         }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&family=Raleway:wght@400;700&display=swap", rel: "stylesheet" }, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 49,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 51,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap", rel: "stylesheet" }, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 52,
+          columnNumber: 11
+        }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Meta, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 50,
+          lineNumber: 54,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Links, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 51,
+          lineNumber: 55,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.jsx",
-        lineNumber: 35,
+        lineNumber: 39,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Navigtion_default, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 54,
+          lineNumber: 58,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Outlet, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 55,
+          lineNumber: 59,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Scripts, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 56,
+          lineNumber: 60,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(ScrollRestoration, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 57,
+          lineNumber: 61,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "wrapper", children: [
@@ -616,32 +620,32 @@ function ErrorBoundary() {
             error.statusText
           ] }, void 0, true, {
             fileName: "app/root.jsx",
-            lineNumber: 59,
+            lineNumber: 63,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: error.data }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 62,
+            lineNumber: 66,
             columnNumber: 13
           }, this)
         ] }, void 0, true, {
           fileName: "app/root.jsx",
-          lineNumber: 58,
+          lineNumber: 62,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Footer_default, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 64,
+          lineNumber: 68,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.jsx",
-        lineNumber: 53,
+        lineNumber: 57,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 34,
+      lineNumber: 38,
       columnNumber: 12
     }, this);
   } else if (error instanceof Error) {
@@ -649,143 +653,143 @@ function ErrorBoundary() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("head", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { charSet: "utf-8" }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 70,
+          lineNumber: 74,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width, initial-scale=1" }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 71,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
-          fileName: "app/root.jsx",
-          lineNumber: 72,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&display=swap", rel: "stylesheet" }, void 0, false, {
-          fileName: "app/root.jsx",
-          lineNumber: 73,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
-          fileName: "app/root.jsx",
           lineNumber: 75,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap", rel: "stylesheet" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 76,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&display=swap", rel: "stylesheet" }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 78,
+          lineNumber: 77,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&family=Raleway:wght@400;700&display=swap", rel: "stylesheet" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 79,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap", rel: "stylesheet" }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 81,
+          lineNumber: 80,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap", rel: "stylesheet" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 82,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Meta, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@700&family=Raleway:wght@400;700&display=swap", rel: "stylesheet" }, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 83,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 85,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Links, {}, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap", rel: "stylesheet" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 86,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Meta, {}, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 89,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Links, {}, void 0, false, {
+          fileName: "app/root.jsx",
+          lineNumber: 90,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.jsx",
-        lineNumber: 69,
+        lineNumber: 73,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Navigtion_default, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 89,
+          lineNumber: 93,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Outlet, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 90,
+          lineNumber: 94,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Scripts, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 91,
+          lineNumber: 95,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(ScrollRestoration, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 92,
+          lineNumber: 96,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "wrapper", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "about-container ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("class", { className: "about-us", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Error" }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 96,
+            lineNumber: 100,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: error.message }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 97,
+            lineNumber: 101,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "The stack trace is:" }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 98,
+            lineNumber: 102,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("pre", { children: error.stack }, void 0, false, {
             fileName: "app/root.jsx",
-            lineNumber: 99,
+            lineNumber: 103,
             columnNumber: 17
           }, this)
         ] }, void 0, true, {
           fileName: "app/root.jsx",
-          lineNumber: 95,
+          lineNumber: 99,
           columnNumber: 15
         }, this) }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 94,
+          lineNumber: 98,
           columnNumber: 13
         }, this) }, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 93,
+          lineNumber: 97,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Footer_default, {}, void 0, false, {
           fileName: "app/root.jsx",
-          lineNumber: 103,
+          lineNumber: 107,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.jsx",
-        lineNumber: 88,
+        lineNumber: 92,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 68,
+      lineNumber: 72,
       columnNumber: 12
     }, this);
   } else {
     return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Unknown Error" }, void 0, false, {
       fileName: "app/root.jsx",
-      lineNumber: 107,
+      lineNumber: 111,
       columnNumber: 12
     }, this);
   }
@@ -799,78 +803,68 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { charSet: "utf-8" }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 117,
+        lineNumber: 121,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("meta", { name: "viewport", content: "width=device-width, initial-scale=1" }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 118,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { rel: "preconnect", href: "https://fonts.googleapis.com" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 119,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("link", { href: "https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@400;700&display=swap", rel: "stylesheet" }, void 0, false, {
-        fileName: "app/root.jsx",
-        lineNumber: 120,
+        lineNumber: 122,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 123,
+        lineNumber: 129,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 124,
+        lineNumber: 130,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 116,
+      lineNumber: 120,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Navigtion_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 127,
+        lineNumber: 133,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Outlet, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 129,
+        lineNumber: 135,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 130,
+        lineNumber: 136,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 131,
+        lineNumber: 137,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 132,
+        lineNumber: 138,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Footer_default, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 133,
+        lineNumber: 139,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 126,
+      lineNumber: 132,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.jsx",
-    lineNumber: 115,
+    lineNumber: 119,
     columnNumber: 10
   }, this);
 }
@@ -886,4 +880,4 @@ export {
   App as default,
   links
 };
-//# sourceMappingURL=/build/root-R3JVBGMH.js.map
+//# sourceMappingURL=/build/root-QRZPNUFY.js.map
