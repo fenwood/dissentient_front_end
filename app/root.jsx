@@ -16,9 +16,9 @@ import "./styles.css"
 export const links = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
   {
-    rel: "preload",
-    href: "https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Raleway:wght@400;700&display=swap",
-    as: "font",
+    rel: "stylesheet preload prefetch",
+    href: "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@900&display=swap",
+    as: "style",
   },
 ]
 

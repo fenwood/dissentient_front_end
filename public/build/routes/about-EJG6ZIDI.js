@@ -128,220 +128,226 @@ var AboutCard = () => {
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "about-section", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { children: "Dissentient Digital" }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 44,
-        columnNumber: 9
+        lineNumber: 43,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h3", { children: "World class design for local businesses." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 45,
-        columnNumber: 9
+        lineNumber: 44,
+        columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/AboutCard/AboutCard.jsx",
-      lineNumber: 43,
-      columnNumber: 5
+      lineNumber: 42,
+      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "section-title", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { children: "About Dissentient Digital" }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 49,
-        columnNumber: 9
+        lineNumber: 48,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "We are a full service web development agency that focuses on helping small and medium businesses compete on a global scale. Our deep experience in analytics, digital media, crm and modern website creation." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 50,
-        columnNumber: 9
+        lineNumber: 49,
+        columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "We are from the era of letter to the better and have been building websites since then, and have been along for the entire ride, from hard coding javascript and css within HTML files to where we are now with AI generated websites and content.  " }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
+        "We are from the era of letter to the better and have been building websites since then, and have been along for the entire ride, from hard coding javascript and css within HTML files to where we are now with AI generated websites and content.",
+        " "
+      ] }, void 0, true, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 51,
-        columnNumber: 9
+        lineNumber: 55,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Whether you have no idea what you want in a website or you have detailed branding guidelines in place we can work with you." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 52,
-        columnNumber: 9
+        lineNumber: 61,
+        columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/AboutCard/AboutCard.jsx",
-      lineNumber: 48,
-      columnNumber: 5
+      lineNumber: 47,
+      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "section-title", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { children: "Who we are" }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 55,
-        columnNumber: 9
+        lineNumber: 67,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Dissentient Digital was founded by a small team of passionate developers and technologists with a mission to help small businesses succeed online. Our team have deep backgrounds from both client and agency site in building websites for large corporations, running multi-million dollar ad campaigns and building complex data solutions for businesses of all sizes. We decided to leverage our experience and expertise to be able to empower small businesses to gain an edge over their competition." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 56,
-        columnNumber: 9
+        lineNumber: 68,
+        columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/AboutCard/AboutCard.jsx",
-      lineNumber: 54,
-      columnNumber: 5
+      lineNumber: 66,
+      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "section-title", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { children: "What we do" }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 59,
-        columnNumber: 9
+        lineNumber: 80,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Our focus is on three main areas. First, we build websites. We offer a full-service subscription based service that includes website design, hosting, domain management, monthly updates and assistance with content and image generation. Our plans start at $50 a month with no commitment. We can also do one-off builds, mobile apps, and e-commerce websites." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 60,
-        columnNumber: 9
+        lineNumber: 81,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Second, we specialize in end-to-end analytics. What does that mean? A few things:" }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 61,
-        columnNumber: 9
+        lineNumber: 89,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("ul", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { children: "Digital analytics" }, void 0, false, {
             fileName: "app/components/AboutCard/AboutCard.jsx",
-            lineNumber: 63,
-            columnNumber: 17
+            lineNumber: 95,
+            columnNumber: 15
           }, this),
           ": setting up Google/Adobe Analytics or tag manager, website audit, setting up dashboards and anything to do with measuring website behavior or media campaigns."
         ] }, void 0, true, {
           fileName: "app/components/AboutCard/AboutCard.jsx",
-          lineNumber: 63,
+          lineNumber: 94,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { children: "Data management" }, void 0, false, {
             fileName: "app/components/AboutCard/AboutCard.jsx",
-            lineNumber: 64,
-            columnNumber: 17
+            lineNumber: 100,
+            columnNumber: 15
           }, this),
           ": we can build out custom data marts, ETL pipelines, create api endpoints, setup Google Big Query and database optimization."
         ] }, void 0, true, {
           fileName: "app/components/AboutCard/AboutCard.jsx",
-          lineNumber: 64,
+          lineNumber: 99,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("li", { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("strong", { children: "Web scraping / data extraction" }, void 0, false, {
             fileName: "app/components/AboutCard/AboutCard.jsx",
-            lineNumber: 65,
-            columnNumber: 17
+            lineNumber: 105,
+            columnNumber: 15
           }, this),
           ": we can pull data from anywhere and provide it to you in any format, assist with data clean up and fuzzy matching."
         ] }, void 0, true, {
           fileName: "app/components/AboutCard/AboutCard.jsx",
-          lineNumber: 65,
+          lineNumber: 104,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 62,
-        columnNumber: 9
+        lineNumber: 93,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Finally, we offer full service digital marketing. We are a data driven shop with years of experience optimizing paid media campaigns. We first understand your audience and find the right platform, creative and messaging to create campaigns to meet your budget. From paid search like Google and Bing to social platforms like Facebook and TikTok, we can get you up can running in no time." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 67,
-        columnNumber: 9
+        lineNumber: 110,
+        columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/AboutCard/AboutCard.jsx",
-      lineNumber: 58,
-      columnNumber: 5
+      lineNumber: 79,
+      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "section-title", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { children: "Why we do it" }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 70,
-        columnNumber: 9
+        lineNumber: 120,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "After working on creating digital experiences and media campaigns for media agencies and large corporations, we all came to the realization that having an impact becomes more challenging the larger the organization is. Our lightbulb moment came while working with friends and colleagues that were getting started with their own businesses and being able to help them start and grow their digital footprints, we realized we have all this knowledge and skills we take for granted and people without a technical background often get frustrated or intimidated by the process." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 71,
-        columnNumber: 9
+        lineNumber: 121,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "So we do it to have an impact, and we can help you move faster than your competition and reach your business goals." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 72,
-        columnNumber: 9
+        lineNumber: 132,
+        columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/AboutCard/AboutCard.jsx",
-      lineNumber: 69,
-      columnNumber: 5
+      lineNumber: 119,
+      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "section-title", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { children: "Why choose us?" }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 75,
-        columnNumber: 9
+        lineNumber: 138,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "For many people, building a website is one of the first things you do, and once you get that out of the way the website tends to be forgotten. This is not the movies, just because you build it does not mean they will come. This is where we add value. Creating a website is the last step in our process." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 76,
-        columnNumber: 9
+        lineNumber: 139,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "All our websites will focus on what matters most, to you and to the search engines. You can have the greatest website and offering but if nobody can find your website then what good is it? All of our sites will have a strong focus on content, accessiblity, performance and most importantly, your business goals." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 77,
-        columnNumber: 9
+        lineNumber: 146,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Our process starts with a full analysis of your competition to look for opportunities for your website to stand out. We then conduct keyword research to find the best opportunities for you to rank quickly on the search results page and develop a content strategy that will ensure your website is SEO friendly and content build around where people are searching." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 78,
-        columnNumber: 9
+        lineNumber: 153,
+        columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/AboutCard/AboutCard.jsx",
-      lineNumber: 74,
-      columnNumber: 5
+      lineNumber: 137,
+      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "section-title", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { children: "But anyone can build a website" }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 81,
-        columnNumber: 5
+        lineNumber: 163,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "We live in an era where chat GPT can build you a website with a few commands, not to mention the countless free and paid website generators out there. If you need a save the date or quick landing page to announce something these are great for basic websites that do not require gaining organic search traffic. But these are not serious options for a business, as the website generators tend to create heavy, bloated websites that are not friendly to the search engines." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 82,
-        columnNumber: 9
+        lineNumber: 164,
+        columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Building a basic website is easy, but once you require additional functionality such as a contact form or saving something in a database then you need a server and database, which is usually beyond the scope of the Wix's of the world. Or if you want to track visitors to your website, you need to setup analytics. " }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
+        "Building a basic website is easy, but once you require additional functionality such as a contact form or saving something in a database then you need a server and database, which is usually beyond the scope of the Wix's of the world. Or if you want to track visitors to your website, you need to setup analytics.",
+        " "
+      ] }, void 0, true, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 83,
-        columnNumber: 9
+        lineNumber: 174,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Our websites are build from the ground up with only the essentials and no bloatware. All our websites are highly performant, fully accessible, includes analytics, contact forms, hosting and content management system where applicable, so you can focus on your business." }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 84,
-        columnNumber: 9
+        lineNumber: 181,
+        columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/AboutCard/AboutCard.jsx",
-      lineNumber: 80,
-      columnNumber: 5
+      lineNumber: 162,
+      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "section-title", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { children: "Frequently Asked Questions" }, void 0, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 87,
-        columnNumber: 9
+        lineNumber: 190,
+        columnNumber: 11
       }, this),
       faqData.map(({
         title,
         content
-      }) => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Faq_default, { title, content }, void 0, false, {
+      }) => /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Faq_default, { title, content }, title, false, {
         fileName: "app/components/AboutCard/AboutCard.jsx",
-        lineNumber: 91,
+        lineNumber: 194,
         columnNumber: 15
       }, this))
     ] }, void 0, true, {
       fileName: "app/components/AboutCard/AboutCard.jsx",
-      lineNumber: 86,
-      columnNumber: 5
+      lineNumber: 189,
+      columnNumber: 9
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/AboutCard/AboutCard.jsx",
@@ -384,4 +390,4 @@ var about_default = about;
 export {
   about_default as default
 };
-//# sourceMappingURL=/build/routes/about-UOPWBKOZ.js.map
+//# sourceMappingURL=/build/routes/about-EJG6ZIDI.js.map
