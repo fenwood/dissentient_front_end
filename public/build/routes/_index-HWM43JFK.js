@@ -9146,7 +9146,7 @@ var Card = ({
       lineNumber: 30,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h3", { children: heading }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h2", { className: "mt", children: heading }, void 0, false, {
       fileName: "app/components/Card/Card.jsx",
       lineNumber: 31,
       columnNumber: 7
@@ -9319,7 +9319,7 @@ var Portfolio = ({
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "portfolio__item-content", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h3", { children: pro.title }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: pro.title }, void 0, false, {
         fileName: "app/components/Portfolio/Portfolio.jsx",
         lineNumber: 66,
         columnNumber: 15
@@ -9339,7 +9339,7 @@ var Portfolio = ({
       lineNumber: 65,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "portfolio__item-cta", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("a", { href: pro.link, target: "_blank", className: "btn btn-primary", rel: "noreferrer", children: "Live Demo" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "portfolio__item-cta", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("a", { href: pro.link, target: "_blank", className: "btn btn-green", rel: "noreferrer", children: "Live Demo" }, void 0, false, {
       fileName: "app/components/Portfolio/Portfolio.jsx",
       lineNumber: 71,
       columnNumber: 15
@@ -9486,7 +9486,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/_index.jsx"
   );
-  import.meta.hot.lastModified = "1709056126223.7676";
+  import.meta.hot.lastModified = "1709245572353.183";
 }
 var meta = () => {
   return [{
@@ -9526,7 +9526,7 @@ function Index() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "container", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Card_default, { cdn: loaderData.ENV.CDN, heading: "Website & App Development", img: web_design_default, body: "We build custom, high performance websites to meet your business needs with a focus on SEO, accessibility and site speed." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Card_default, { cdn: loaderData.ENV.CDN, heading: "Website Development", img: web_design_default, body: "We build custom, high performance websites to meet your business needs with a focus on SEO, accessibility and site speed." }, void 0, false, {
           fileName: "app/routes/_index.jsx",
           lineNumber: 73,
           columnNumber: 11
@@ -9633,4 +9633,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-ZMGP4WOD.js.map
+//# sourceMappingURL=/build/routes/_index-HWM43JFK.js.map

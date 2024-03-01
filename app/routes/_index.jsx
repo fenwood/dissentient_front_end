@@ -80,7 +80,7 @@ export default function Index() {
         <div className="container">
           <Card
             cdn={loaderData.ENV.CDN}
-            heading="Website & App Development"
+            heading="Website Development"
             img={Design}
             body="We build custom, high performance websites to meet your business needs with a focus on SEO, accessibility and site speed."
           />

@@ -54,7 +54,7 @@ const Portfolio = ({ cdn }) => {
               <Image src={pro.img} alt={pro.title} cdn={cdn} />
             </div>
             <div className="portfolio__item-content">
-              <h3>{pro.title}</h3>
+              <h2>{pro.title}</h2>
               <p>{pro.description}</p>
               <p>{pro.technologies}</p>
             </div>
@@ -62,7 +62,7 @@ const Portfolio = ({ cdn }) => {
               <a
                 href={pro.link}
                 target="_blank"
-                className="btn btn-primary"
+                className="btn btn-green"
                 rel="noreferrer"
               >
                 Live Demo

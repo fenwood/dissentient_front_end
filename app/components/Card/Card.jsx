@@ -6,7 +6,7 @@ const Card = ({ heading, img, body, cdn }) => {
   return (
     <div className="card">
       <Image src={img} alt={heading} height={100} width={100} cdn={cdn} />
-      <h3>{heading}</h3>
+      <h2 className="mt">{heading}</h2>
       <p>{body}</p>
     </div>
   )

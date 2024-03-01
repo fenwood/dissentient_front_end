@@ -26,7 +26,7 @@ import {
 } from "/build/_shared/chunk-PNG5AS42.js";
 
 // css-bundle-plugin-ns:@remix-run/css-bundle
-var cssBundleHref = "/build/css-bundle-OAUAXIS2.css";
+var cssBundleHref = "/build/css-bundle-HUHI7KWZ.css";
 
 // app/components/Navigtion.jsx
 var import_react2 = __toESM(require_react(), 1);
@@ -880,4 +880,4 @@ export {
   App as default,
   links
 };
-//# sourceMappingURL=/build/root-6B3OMS2G.js.map
+//# sourceMappingURL=/build/root-4KESRLD7.js.map

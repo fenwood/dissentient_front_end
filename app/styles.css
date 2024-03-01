@@ -86,6 +86,11 @@
   width: 90%;
 }
 
+.btn-green {
+  background-color: #176325;
+  color: #fff;
+  text-decoration: none;
+}
 /* flex-direction: row;
 align-items: center;
 justify-content: space-around;

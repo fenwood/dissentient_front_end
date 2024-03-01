@@ -16,11 +16,11 @@
 }
 .footer .row a {
   text-decoration: none;
-  color: gray;
+  color: #176325;
   transition: 0.5s;
 }
 .footer .row a:hover {
-  color: #000;
+  color: gray;
 }
 .footer .row ul {
   width: 100%;
@@ -33,7 +33,7 @@
   font-size: 2em;
   margin: 0% 1%;
 }
-@media (max-width:720px) {
+@media (max-width: 720px) {
   .footer {
     text-align: left;
     padding: 5%;
@@ -125,6 +125,11 @@
   margin-bottom: 1em;
   margin: 0 auto;
   width: 90%;
+}
+.btn-green {
+  background-color: #176325;
+  color: #fff;
+  text-decoration: none;
 }
 w-100 {
   width: 100;
@@ -4528,4 +4533,4 @@ animate.css/animate.css:
   * Copyright (c) 2020 Animate.css
   *)
 */
-/*# sourceMappingURL=/build/css-bundle-OAUAXIS2.css.map */
+/*# sourceMappingURL=/build/css-bundle-HUHI7KWZ.css.map */
