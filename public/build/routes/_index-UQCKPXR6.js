@@ -9248,13 +9248,13 @@ var import_react29 = __toESM(require_react(), 1);
 var portfolio_memorybooth_default = "/build/_assets/portfolio_memorybooth-XYGL4FLE.png";
 
 // app/assets/portfolio_millenium.png
-var portfolio_millenium_default = "/build/_assets/portfolio_millenium-32UPFN4H.png";
+var portfolio_millenium_default = "/build/_assets/portfolio_millenium-QDONTJPH.png";
 
 // app/assets/portfolio_wineryseeker.png
-var portfolio_wineryseeker_default = "/build/_assets/portfolio_wineryseeker-5TYDU3Y6.png";
+var portfolio_wineryseeker_default = "/build/_assets/portfolio_wineryseeker-THBU4JAI.png";
 
 // app/assets/portfolio_avintageo.png
-var portfolio_avintageo_default = "/build/_assets/portfolio_avintageo-64QFNTXL.png";
+var portfolio_avintageo_default = "/build/_assets/portfolio_avintageo-RRDLKGT7.png";
 
 // app/components/Portfolio/Portfolio.jsx
 var import_jsx_dev_runtime4 = __toESM(require_jsx_dev_runtime(), 1);
@@ -9281,10 +9281,10 @@ var Portfolio = ({
 }) => {
   const projects = [{
     id: 1,
-    title: "Avintageo",
+    title: "Memory Booths",
     img: portfolio_memorybooth_default,
-    description: "A mobile app splash page for Avintageo, an app that predicts the probability of you liking any wine",
-    technologies: "React.js | Pixel-perfect | SCSS | Styled Component",
+    description: "A photobooth rental business to showcase products and acquire leads.",
+    technologies: "Gatsby | React",
     link: "https://www.memorybooths.ca"
   }, {
     id: 2,
@@ -9305,7 +9305,7 @@ var Portfolio = ({
     title: "Avintageo",
     img: portfolio_avintageo_default,
     description: "A mobile app splash page for Avintageo, an app that predicts the probability of you liking any wine.",
-    technologies: "Remix | React.js | Webflow | jQuery",
+    technologies: "Plain html",
     link: "https://www.avintageo.com/"
   }];
   return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("section", { id: "portfolio", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "container portfolio__container", children: projects.map((pro) => /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("article", { className: "portfolio__item", children: [
@@ -9319,7 +9319,7 @@ var Portfolio = ({
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "portfolio__item-content", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: pro.title }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { className: "mt", children: pro.title }, void 0, false, {
         fileName: "app/components/Portfolio/Portfolio.jsx",
         lineNumber: 66,
         columnNumber: 15
@@ -9633,4 +9633,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-HWM43JFK.js.map
+//# sourceMappingURL=/build/routes/_index-UQCKPXR6.js.map

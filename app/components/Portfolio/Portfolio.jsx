@@ -10,11 +10,11 @@ const Portfolio = ({ cdn }) => {
   const projects = [
     {
       id: 1,
-      title: "Avintageo",
+      title: "Memory Booths",
       img: PorfolioImage1,
       description:
-        "A mobile app splash page for Avintageo, an app that predicts the probability of you liking any wine",
-      technologies: "React.js | Pixel-perfect | SCSS | Styled Component",
+        "A photobooth rental business to showcase products and acquire leads.",
+      technologies: "Gatsby | React",
       link: "https://www.memorybooths.ca",
     },
     {
@@ -40,7 +40,7 @@ const Portfolio = ({ cdn }) => {
       img: PorfolioImage4,
       description:
         "A mobile app splash page for Avintageo, an app that predicts the probability of you liking any wine.",
-      technologies: "Remix | React.js | Webflow | jQuery",
+      technologies: "Plain html",
       link: "https://www.avintageo.com/",
     },
   ]
@@ -54,7 +54,7 @@ const Portfolio = ({ cdn }) => {
               <Image src={pro.img} alt={pro.title} cdn={cdn} />
             </div>
             <div className="portfolio__item-content">
-              <h2>{pro.title}</h2>
+              <h2 className="mt">{pro.title}</h2>
               <p>{pro.description}</p>
               <p>{pro.technologies}</p>
             </div>
