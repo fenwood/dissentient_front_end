@@ -134,12 +134,12 @@ w-45 {
 .container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
   flex-flow: wrap;
   width: 90%;
   margin: 50px auto;
-  gap: 30px;
+  gap: 1em;
 }
 
 .heading {

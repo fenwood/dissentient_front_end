@@ -70,3 +70,9 @@ img {
     gap: 1rem;
   }
 }
+
+.subheading {
+  font-weight: 500;
+  color: var(--heading_color);
+  font-size: 1.5rem;
+}
