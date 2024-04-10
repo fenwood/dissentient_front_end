@@ -1,0 +1,19 @@
+.section-row {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img-container {
+  width: 45%;
+  flex: 0 0 auto;
+  padding: 1rem;
+}
+
+.content-container {
+  flex: 0 0 auto;
+  width: 55%;
+  padding: 1rem;
+}

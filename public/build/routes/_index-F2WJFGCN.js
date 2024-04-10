@@ -9,12 +9,12 @@ import {
 } from "/build/_shared/chunk-47QHGZ6T.js";
 import "/build/_shared/chunk-GIAAE3CH.js";
 import {
+  require_jsx_dev_runtime
+} from "/build/_shared/chunk-XU7DNSPJ.js";
+import {
   createHotContext
 } from "/build/_shared/chunk-AXWZE5KF.js";
 import "/build/_shared/chunk-UWV35TSL.js";
-import {
-  require_jsx_dev_runtime
-} from "/build/_shared/chunk-XU7DNSPJ.js";
 import {
   require_react
 } from "/build/_shared/chunk-BOXFZXVX.js";
@@ -9169,6 +9169,177 @@ $RefreshReg$(_c2, "Card");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
+// app/components/Item/Item.jsx
+var import_react28 = __toESM(require_react(), 1);
+var import_jsx_dev_runtime3 = __toESM(require_jsx_dev_runtime(), 1);
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id3) => {
+    window.$RefreshRuntime$.register(type, '"app/components/Item/Item.jsx"' + id3);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app/components/Item/Item.jsx"
+  );
+}
+var Item = ({
+  img,
+  heading,
+  body,
+  cdn
+}) => {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "item", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Image, { src: img, alt: heading, height: 100, width: 100, cdn }, void 0, false, {
+      fileName: "app/components/Item/Item.jsx",
+      lineNumber: 30,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: heading }, void 0, false, {
+      fileName: "app/components/Item/Item.jsx",
+      lineNumber: 31,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: body }, void 0, false, {
+      fileName: "app/components/Item/Item.jsx",
+      lineNumber: 32,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/Item/Item.jsx",
+    lineNumber: 29,
+    columnNumber: 10
+  }, this);
+};
+_c3 = Item;
+var Item_default = Item;
+var _c3;
+$RefreshReg$(_c3, "Item");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+// app/components/PricingCard/PricingCard.jsx
+var import_react30 = __toESM(require_react(), 1);
+var import_jsx_dev_runtime4 = __toESM(require_jsx_dev_runtime(), 1);
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id3) => {
+    window.$RefreshRuntime$.register(type, '"app/components/PricingCard/PricingCard.jsx"' + id3);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app/components/PricingCard/PricingCard.jsx"
+  );
+}
+var PricingCard = ({
+  title,
+  price,
+  items,
+  cta
+}) => {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "pricing-card", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h5", { children: title }, void 0, false, {
+      fileName: "app/components/PricingCard/PricingCard.jsx",
+      lineNumber: 29,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "pricing-subheading", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("span", { className: "text-3xl", children: "$" }, void 0, false, {
+        fileName: "app/components/PricingCard/PricingCard.jsx",
+        lineNumber: 31,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("span", { className: "text-5xl", children: price }, void 0, false, {
+        fileName: "app/components/PricingCard/PricingCard.jsx",
+        lineNumber: 32,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("span", { className: "text-xl", children: "/month" }, void 0, false, {
+        fileName: "app/components/PricingCard/PricingCard.jsx",
+        lineNumber: 33,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/components/PricingCard/PricingCard.jsx",
+      lineNumber: 30,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("ul", { role: "list", children: items.map((item) => item.active ? /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("svg", { className: "svg-blue", "aria-hidden": "true", xmlns: "http://www.w3.org/2000/svg", fill: "currentColor", viewBox: "0 0 20 20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("path", { d: "M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" }, void 0, false, {
+        fileName: "app/components/PricingCard/PricingCard.jsx",
+        lineNumber: 39,
+        columnNumber: 17
+      }, this) }, void 0, false, {
+        fileName: "app/components/PricingCard/PricingCard.jsx",
+        lineNumber: 37,
+        columnNumber: 15
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("span", { className: "list-text", children: item.text }, void 0, false, {
+        fileName: "app/components/PricingCard/PricingCard.jsx",
+        lineNumber: 41,
+        columnNumber: 15
+      }, this)
+    ] }, item.id, true, {
+      fileName: "app/components/PricingCard/PricingCard.jsx",
+      lineNumber: 36,
+      columnNumber: 42
+    }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { className: "strike-through", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("svg", { className: "svg-gray", "aria-hidden": "true", xmlns: "http://www.w3.org/2000/svg", fill: "currentColor", viewBox: "0 0 20 20", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("path", { d: "M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" }, void 0, false, {
+        fileName: "app/components/PricingCard/PricingCard.jsx",
+        lineNumber: 45,
+        columnNumber: 17
+      }, this) }, void 0, false, {
+        fileName: "app/components/PricingCard/PricingCard.jsx",
+        lineNumber: 43,
+        columnNumber: 15
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("span", { className: "list-text", children: item.text }, void 0, false, {
+        fileName: "app/components/PricingCard/PricingCard.jsx",
+        lineNumber: 47,
+        columnNumber: 15
+      }, this)
+    ] }, item.id, true, {
+      fileName: "app/components/PricingCard/PricingCard.jsx",
+      lineNumber: 42,
+      columnNumber: 21
+    }, this)) }, void 0, false, {
+      fileName: "app/components/PricingCard/PricingCard.jsx",
+      lineNumber: 35,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("button", { type: "button", className: "btn-pricing", children: cta }, void 0, false, {
+      fileName: "app/components/PricingCard/PricingCard.jsx",
+      lineNumber: 50,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/components/PricingCard/PricingCard.jsx",
+    lineNumber: 28,
+    columnNumber: 10
+  }, this);
+};
+_c4 = PricingCard;
+var PricingCard_default = PricingCard;
+var _c4;
+$RefreshReg$(_c4, "PricingCard");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
 // app/assets/analytics.png
 var analytics_default = "/build/_assets/analytics-GCZRBV5N.png";
 
@@ -9181,6 +9352,15 @@ var web_design_default = "/build/_assets/web-design-OIOQH4H7.png";
 // app/assets/painter.png
 var painter_default = "/build/_assets/painter-IOK5FCNZ.png";
 
+// app/assets/digital-needs-100.png
+var digital_needs_100_default = "/build/_assets/digital-needs-100-JE3DEYUD.png";
+
+// app/assets/heart-bag-100.png
+var heart_bag_100_default = "/build/_assets/heart-bag-100-GZR3BBIZ.png";
+
+// app/assets/brand-100.png
+var brand_100_default = "/build/_assets/brand-100-YFJRP7OK.png";
+
 // app/assets/analytics.jpg
 var analytics_default2 = "/build/_assets/analytics-U47VME5L.jpg";
 
@@ -9191,8 +9371,8 @@ var data_default = "/build/_assets/data-IJ3B6AF5.jpg";
 var seo_default = "/build/_assets/seo-BQPK2EDC.jpg";
 
 // app/components/TextBanner/TextBanner.jsx
-var import_react28 = __toESM(require_react(), 1);
-var import_jsx_dev_runtime3 = __toESM(require_jsx_dev_runtime(), 1);
+var import_react31 = __toESM(require_react(), 1);
+var import_jsx_dev_runtime5 = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
 } else {
@@ -9212,9 +9392,9 @@ if (import.meta) {
   );
 }
 var TextBanner = () => {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "cta-box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "cta-text", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "cta-box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "cta-text", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h3", { children: [
     "Let us build your dream website and focus on the technology while you focus on what matters, your business. ",
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { children: "Plans starting at $50 per month" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { children: "Plans starting at $50 per month" }, void 0, false, {
       fileName: "app/components/TextBanner/TextBanner.jsx",
       lineNumber: 25,
       columnNumber: 121
@@ -9234,15 +9414,15 @@ var TextBanner = () => {
     columnNumber: 10
   }, this);
 };
-_c3 = TextBanner;
+_c5 = TextBanner;
 var TextBanner_default = TextBanner;
-var _c3;
-$RefreshReg$(_c3, "TextBanner");
+var _c5;
+$RefreshReg$(_c5, "TextBanner");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
 // app/components/Portfolio/Portfolio.jsx
-var import_react29 = __toESM(require_react(), 1);
+var import_react32 = __toESM(require_react(), 1);
 
 // app/assets/portfolio_memorybooth.png
 var portfolio_memorybooth_default = "/build/_assets/portfolio_memorybooth-XYGL4FLE.png";
@@ -9257,7 +9437,7 @@ var portfolio_wineryseeker_default = "/build/_assets/portfolio_wineryseeker-THBU
 var portfolio_avintageo_default = "/build/_assets/portfolio_avintageo-RRDLKGT7.png";
 
 // app/components/Portfolio/Portfolio.jsx
-var import_jsx_dev_runtime4 = __toESM(require_jsx_dev_runtime(), 1);
+var import_jsx_dev_runtime6 = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
 } else {
@@ -9308,8 +9488,8 @@ var Portfolio = ({
     technologies: "Plain html",
     link: "https://www.avintageo.com/"
   }];
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("section", { id: "portfolio", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "container portfolio__container", children: projects.map((pro) => /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("article", { className: "portfolio__item", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "portfolio__item-image", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Image, { src: pro.img, alt: pro.title, cdn }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("section", { id: "portfolio", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "container portfolio__container", children: projects.map((pro) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("article", { className: "portfolio__item", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "portfolio__item-image", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Image, { src: pro.img, alt: pro.title, cdn }, void 0, false, {
       fileName: "app/components/Portfolio/Portfolio.jsx",
       lineNumber: 63,
       columnNumber: 15
@@ -9318,18 +9498,18 @@ var Portfolio = ({
       lineNumber: 62,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "portfolio__item-content", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { className: "mt", children: pro.title }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "portfolio__item-content", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h2", { className: "mt", children: pro.title }, void 0, false, {
         fileName: "app/components/Portfolio/Portfolio.jsx",
         lineNumber: 66,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: pro.description }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: pro.description }, void 0, false, {
         fileName: "app/components/Portfolio/Portfolio.jsx",
         lineNumber: 67,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: pro.technologies }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: pro.technologies }, void 0, false, {
         fileName: "app/components/Portfolio/Portfolio.jsx",
         lineNumber: 68,
         columnNumber: 15
@@ -9339,7 +9519,7 @@ var Portfolio = ({
       lineNumber: 65,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "portfolio__item-cta", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("a", { href: pro.link, target: "_blank", className: "btn btn-green", rel: "noreferrer", children: "Live Demo" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "portfolio__item-cta", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("a", { href: pro.link, target: "_blank", className: "btn btn-green", rel: "noreferrer", children: "Live Demo" }, void 0, false, {
       fileName: "app/components/Portfolio/Portfolio.jsx",
       lineNumber: 71,
       columnNumber: 15
@@ -9362,16 +9542,16 @@ var Portfolio = ({
     columnNumber: 10
   }, this);
 };
-_c4 = Portfolio;
+_c6 = Portfolio;
 var Portfolio_default = Portfolio;
-var _c4;
-$RefreshReg$(_c4, "Portfolio");
+var _c6;
+$RefreshReg$(_c6, "Portfolio");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
 // app/components/SectionContainer/SectionContainer.jsx
-var import_react31 = __toESM(require_react(), 1);
-var import_jsx_dev_runtime5 = __toESM(require_jsx_dev_runtime(), 1);
+var import_react34 = __toESM(require_react(), 1);
+var import_jsx_dev_runtime7 = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
 } else {
@@ -9398,19 +9578,19 @@ var SectionContainer = ({
   cdn
 }) => {
   if (left) {
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "lr-container", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Image, { src: img, alt: heading, cdn }, void 0, false, {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "lr-container", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(Image, { src: img, alt: heading, cdn }, void 0, false, {
         fileName: "app/components/SectionContainer/SectionContainer.jsx",
         lineNumber: 33,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "lr-content", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h2", { children: heading }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "lr-content", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { children: heading }, void 0, false, {
           fileName: "app/components/SectionContainer/SectionContainer.jsx",
           lineNumber: 35,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: content }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: content }, void 0, false, {
           fileName: "app/components/SectionContainer/SectionContainer.jsx",
           lineNumber: 36,
           columnNumber: 11
@@ -9426,14 +9606,14 @@ var SectionContainer = ({
       columnNumber: 12
     }, this);
   } else {
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "lr-container-right", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "lr-content", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h2", { children: heading }, void 0, false, {
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "lr-container-right", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "lr-content", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { children: heading }, void 0, false, {
           fileName: "app/components/SectionContainer/SectionContainer.jsx",
           lineNumber: 42,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: content }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: content }, void 0, false, {
           fileName: "app/components/SectionContainer/SectionContainer.jsx",
           lineNumber: 43,
           columnNumber: 11
@@ -9443,7 +9623,7 @@ var SectionContainer = ({
         lineNumber: 41,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { src: img, alt: heading, className: "src" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: img, alt: heading, className: "src" }, void 0, false, {
         fileName: "app/components/SectionContainer/SectionContainer.jsx",
         lineNumber: 45,
         columnNumber: 9
@@ -9455,10 +9635,10 @@ var SectionContainer = ({
     }, this);
   }
 };
-_c5 = SectionContainer;
+_c7 = SectionContainer;
 var SectionContainer_default = SectionContainer;
-var _c5;
-$RefreshReg$(_c5, "SectionContainer");
+var _c7;
+$RefreshReg$(_c7, "SectionContainer");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 
@@ -9467,7 +9647,7 @@ var hero11_default = "/build/_assets/hero11-KRO54AP4.jpg";
 
 // app/routes/_index.jsx
 var import_node = __toESM(require_node(), 1);
-var import_jsx_dev_runtime6 = __toESM(require_jsx_dev_runtime(), 1);
+var import_jsx_dev_runtime8 = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
 } else {
@@ -9486,7 +9666,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/_index.jsx"
   );
-  import.meta.hot.lastModified = "1709245572353.183";
+  import.meta.hot.lastModified = "1712695459148.959";
 }
 var meta = () => {
   return [{
@@ -9505,132 +9685,324 @@ var tagLines = ["First tagline", "2nd tagline", "3rd tagline", "4th tagline", "5
 function Index() {
   _s2();
   const loaderData = useLoaderData();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_jsx_dev_runtime6.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "wrapper", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Hero_default, { images, headings, tagLines }, void 0, false, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_jsx_dev_runtime8.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "wrapper", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Hero_default, { images, headings, tagLines }, void 0, false, {
       fileName: "app/routes/_index.jsx",
-      lineNumber: 66,
+      lineNumber: 73,
       columnNumber: 9
     }, this) }, void 0, false, {
       fileName: "app/routes/_index.jsx",
-      lineNumber: 65,
+      lineNumber: 72,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "wrapper", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "section-title flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h1", { children: "Our Offering" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "wrapper", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "section-title flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { children: "About Dissentient Digital" }, void 0, false, {
         fileName: "app/routes/_index.jsx",
-        lineNumber: 70,
+        lineNumber: 77,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/routes/_index.jsx",
-        lineNumber: 69,
+        lineNumber: 76,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "container", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Card_default, { cdn: loaderData.ENV.CDN, heading: "Website Development", img: web_design_default, body: "We build custom, high performance websites to meet your business needs with a focus on SEO, accessibility and site speed." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "section-sub", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { children: [
+        "We help small business succeed online without breaking the bank. Dissentient specializes in building custom, digital experiences for local small businesses that focus on fast, SEO-friendly modern websites that will drive more visibility into your brand.",
+        " "
+      ] }, void 0, true, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 81,
+        columnNumber: 11
+      }, this) }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 80,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "container", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Item_default, { cdn: loaderData.ENV.CDN, heading: "Your digital needs, fulfilled", img: digital_needs_100_default, body: "White glove service, dollar store prices. We will develop and design your website, handle all your copy and image requirements and host on our content distribution network." }, void 0, false, {
           fileName: "app/routes/_index.jsx",
-          lineNumber: 73,
+          lineNumber: 89,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Card_default, { cdn: loaderData.ENV.CDN, heading: "Data & Analytics", img: hosting_default, body: "From setting up Google Analytics and building out data pipelines to custom web scraping, we can help with all your data needs." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Item_default, { cdn: loaderData.ENV.CDN, heading: "We build Websites Brands", img: brand_100_default, body: "Building a website is easy, building a digital presence is where we add value. If you build it, they won't come. We focus on creating content-based stragies based on your busiess objectives to esure you can compete in your domain." }, void 0, false, {
           fileName: "app/routes/_index.jsx",
-          lineNumber: 74,
+          lineNumber: 90,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Card_default, { cdn: loaderData.ENV.CDN, heading: "Digital Marketing", img: analytics_default, body: "Want to aquire leads through paid media but don't know where to start? We can help run your search, display and social campaigns with any budget." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Item_default, { cdn: loaderData.ENV.CDN, heading: "Made with love", img: heart_bag_100_default, body: "Our design philosophy is to create websites that are simple, lovable and complete. Our websites are fully mobile responsible, meet all accessibility standards and are lightening-fast. " }, void 0, false, {
           fileName: "app/routes/_index.jsx",
-          lineNumber: 75,
+          lineNumber: 91,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
-        fileName: "app/routes/_index.jsx",
-        lineNumber: 72,
-        columnNumber: 9
-      }, this)
-    ] }, void 0, true, {
-      fileName: "app/routes/_index.jsx",
-      lineNumber: 68,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "wrapper", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(TextBanner_default, {}, void 0, false, {
-      fileName: "app/routes/_index.jsx",
-      lineNumber: 79,
-      columnNumber: 9
-    }, this) }, void 0, false, {
-      fileName: "app/routes/_index.jsx",
-      lineNumber: 78,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "wrapper", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "section-title flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h1", { children: "What we do" }, void 0, false, {
-        fileName: "app/routes/_index.jsx",
-        lineNumber: 83,
-        columnNumber: 11
-      }, this) }, void 0, false, {
-        fileName: "app/routes/_index.jsx",
-        lineNumber: 82,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(SectionContainer_default, { heading: "Website Development", content: "We offer end-to-end full-service website design for small businesses that includes designing a modern custom website, hosting and domain management and unlimited updates starting from just $50 per month.  All our websites include Google Analytics and are built to be fully accessible, highly performant and SEO-friendly leveraging modern technology stacks. ", img: painter_default, left: true, cdn: loaderData.ENV.CDN }, void 0, false, {
-        fileName: "app/routes/_index.jsx",
-        lineNumber: 85,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(SectionContainer_default, { heading: "Analytics", content: "Digital Analytics. From tag management to implementing or modifying Google Analytics, our team has experience in most leading analytics tools including Adobe and Google Analytics / Tag manager, Tableau and Looker studio for dashboards, and data management platforms such as Big Query and Domo.", img: analytics_default2, left: false, cdn: loaderData.ENV.CDN }, void 0, false, {
-        fileName: "app/routes/_index.jsx",
-        lineNumber: 86,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(SectionContainer_default, { heading: "Data", content: "Is there data that  you want but cannot get in the format you like? We can scrape any public data and give it to you in a csv or Excel format. We build custom web scrapers and can query almost any website.", img: data_default, left: true, cdn: loaderData.ENV.CDN }, void 0, false, {
-        fileName: "app/routes/_index.jsx",
-        lineNumber: 87,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(SectionContainer_default, { heading: "Digital Marketing", content: "Don\u2019t have time to manage and ad campaign? Let us help. We have several years experience running digital campaigns across several industries and apply a data driven approach to ensure you are targeting the right people on the right platforms with the right message.", img: seo_default, left: false, cdn: loaderData.ENV.CDN }, void 0, false, {
         fileName: "app/routes/_index.jsx",
         lineNumber: 88,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/_index.jsx",
-      lineNumber: 81,
+      lineNumber: 75,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "wrapper", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "section-title flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h1", { children: "Our Portfolio" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "wrapper", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(TextBanner_default, {}, void 0, false, {
+      fileName: "app/routes/_index.jsx",
+      lineNumber: 96,
+      columnNumber: 9
+    }, this) }, void 0, false, {
+      fileName: "app/routes/_index.jsx",
+      lineNumber: 95,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "wrapper", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "section-title flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { children: "Pricing" }, void 0, false, {
         fileName: "app/routes/_index.jsx",
-        lineNumber: 92,
+        lineNumber: 101,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/routes/_index.jsx",
-        lineNumber: 91,
+        lineNumber: 100,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Portfolio_default, { cdn: loaderData.ENV.CDN }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "container", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(PricingCard_default, { title: "Static Site", price: "15", items: [{
+          id: 1,
+          active: true,
+          text: "5 pages included"
+        }, {
+          id: 2,
+          active: true,
+          text: "Will create copy/images"
+        }, {
+          id: 3,
+          active: true,
+          text: "Fully responsive, SEO friendly"
+        }, {
+          id: 4,
+          active: true,
+          text: "Hosting and analytics included"
+        }, {
+          id: 5,
+          active: false,
+          text: "Contact form"
+        }, {
+          id: 6,
+          active: false,
+          text: "Unlimited edits"
+        }, {
+          id: 7,
+          active: false,
+          text: "Content management system"
+        }, {
+          id: 8,
+          active: false,
+          text: "Ability to edit yourself"
+        }, {
+          id: 9,
+          active: false,
+          text: "Unlimited edits"
+        }], cta: "Learn more" }, void 0, false, {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 104,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(PricingCard_default, { title: "Static Site with Form", price: "25", items: [{
+          id: 1,
+          active: true,
+          text: "10 pages included"
+        }, {
+          id: 2,
+          active: true,
+          text: "Will create copy/images"
+        }, {
+          id: 3,
+          active: true,
+          text: "Fully responsive, SEO friendly"
+        }, {
+          id: 4,
+          active: true,
+          text: "Hosting and analytics included"
+        }, {
+          id: 5,
+          active: true,
+          text: "Contact form"
+        }, {
+          id: 6,
+          active: true,
+          text: "Unlimited edits"
+        }, {
+          id: 7,
+          active: false,
+          text: "Content management system"
+        }, {
+          id: 8,
+          active: false,
+          text: "Ability to edit yourself"
+        }, {
+          id: 9,
+          active: false,
+          text: "Unlimited edits"
+        }], cta: "Learn more" }, void 0, false, {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 141,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(PricingCard_default, { title: "Content Creator", price: "50", items: [{
+          id: 1,
+          active: true,
+          text: "1000 pages included"
+        }, {
+          id: 2,
+          active: true,
+          text: "Will create copy/images"
+        }, {
+          id: 3,
+          active: true,
+          text: "Fully responsive, SEO friendly"
+        }, {
+          id: 4,
+          active: true,
+          text: "Hosting and analytics included"
+        }, {
+          id: 5,
+          active: true,
+          text: "Contact form"
+        }, {
+          id: 6,
+          active: true,
+          text: "Unlimited edits"
+        }, {
+          id: 7,
+          active: true,
+          text: "Content management system"
+        }, {
+          id: 8,
+          active: true,
+          text: "Ability to edit yourself"
+        }, {
+          id: 9,
+          active: true,
+          text: "Unlimited edits"
+        }], cta: "Learn more" }, void 0, false, {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 178,
+          columnNumber: 11
+        }, this)
+      ] }, void 0, true, {
         fileName: "app/routes/_index.jsx",
-        lineNumber: 94,
+        lineNumber: 103,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/_index.jsx",
-      lineNumber: 90,
+      lineNumber: 99,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "wrapper", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "section-title flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { children: "What we do" }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 220,
+        columnNumber: 11
+      }, this) }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 219,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(SectionContainer_default, { heading: "Website Development", content: "We offer end-to-end full-service website design for small businesses that includes designing a modern custom website, hosting and domain management and unlimited updates starting from just $50 per month.  All our websites include Google Analytics and are built to be fully accessible, highly performant and SEO-friendly leveraging modern technology stacks. ", img: painter_default, left: true, cdn: loaderData.ENV.CDN }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 222,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(SectionContainer_default, { heading: "Analytics", content: "Digital Analytics. From tag management to implementing or modifying Google Analytics, our team has experience in most leading analytics tools including Adobe and Google Analytics / Tag manager, Tableau and Looker studio for dashboards, and data management platforms such as Big Query and Domo.", img: analytics_default2, left: false, cdn: loaderData.ENV.CDN }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 223,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(SectionContainer_default, { heading: "Data", content: "Is there data that  you want but cannot get in the format you like? We can scrape any public data and give it to you in a csv or Excel format. We build custom web scrapers and can query almost any website.", img: data_default, left: true, cdn: loaderData.ENV.CDN }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 224,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(SectionContainer_default, { heading: "Digital Marketing", content: "Don\u2019t have time to manage and ad campaign? Let us help. We have several years experience running digital campaigns across several industries and apply a data driven approach to ensure you are targeting the right people on the right platforms with the right message.", img: seo_default, left: false, cdn: loaderData.ENV.CDN }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 225,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/routes/_index.jsx",
+      lineNumber: 218,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "wrapper", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "section-title flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { children: "Our Portfolio" }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 229,
+        columnNumber: 11
+      }, this) }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 228,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Portfolio_default, { cdn: loaderData.ENV.CDN }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 231,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/routes/_index.jsx",
+      lineNumber: 227,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "wrapper", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "section-title flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { children: "Our Offering" }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 235,
+        columnNumber: 11
+      }, this) }, void 0, false, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 234,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "container", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Card_default, { cdn: loaderData.ENV.CDN, heading: "Website Development", img: web_design_default, body: "We build custom, high performance websites to meet your business needs with a focus on SEO, accessibility and site speed." }, void 0, false, {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 238,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Card_default, { cdn: loaderData.ENV.CDN, heading: "Data & Analytics", img: hosting_default, body: "From setting up Google Analytics and building out data pipelines to custom web scraping, we can help with all your data needs." }, void 0, false, {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 239,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(Card_default, { cdn: loaderData.ENV.CDN, heading: "Digital Marketing", img: analytics_default, body: "Want to aquire leads through paid media but don't know where to start? We can help run your search, display and social campaigns with any budget." }, void 0, false, {
+          fileName: "app/routes/_index.jsx",
+          lineNumber: 240,
+          columnNumber: 11
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/routes/_index.jsx",
+        lineNumber: 237,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/routes/_index.jsx",
+      lineNumber: 233,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/_index.jsx",
-    lineNumber: 64,
+    lineNumber: 71,
     columnNumber: 10
   }, this);
 }
 _s2(Index, "ceKF1Gd7W4lGV+M78eBsU+KQIkw=", false, function() {
   return [useLoaderData];
 });
-_c6 = Index;
-var _c6;
-$RefreshReg$(_c6, "Index");
+_c8 = Index;
+var _c8;
+$RefreshReg$(_c8, "Index");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-UQCKPXR6.js.map
+//# sourceMappingURL=/build/routes/_index-F2WJFGCN.js.map

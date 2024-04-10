@@ -1,9 +1,16 @@
 import Hero from "../components/Hero"
 import Card from "../components/Card/Card"
+import Item from "../components/Item/Item"
+import PricingCard from "../components/PricingCard/PricingCard"
 import Analytics from "../assets/analytics.png"
 import Hosting from "../assets/hosting.png"
 import Design from "../assets/web-design.png"
 import webImage from "../assets/painter.png"
+import imgDigitalNeeds from "../assets/digital-needs-100.png"
+import imgRabbit from "../assets/icons8-rabbit-100.png"
+import imgTargets from "../assets/targets-100.png"
+import imgHeartBag from "../assets/heart-bag-100.png"
+import imgBrand from "../assets/brand-100.png"
 import analyticsImage from "../assets/analytics.jpg"
 import dataImage from "../assets/data.jpg"
 import seoImage from "../assets/seo.jpg"
@@ -75,32 +82,99 @@ export default function Index() {
       </div>
       <div className="wrapper">
         <div className="section-title flex">
-          <h1>Our Offering</h1>
+          <h1>About Dissentient Digital</h1>
+        </div>
+
+        <div className="section-sub">
+          <p>
+            We help small business succeed online without breaking the bank.
+            Dissentient specializes in building custom, digital experiences for
+            local small businesses that focus on fast, SEO-friendly modern
+            websites that will drive more visibility into your brand.{" "}
+          </p>
         </div>
         <div className="container">
-          <Card
+          <Item
             cdn={loaderData.ENV.CDN}
-            heading="Website Development"
-            img={Design}
-            body="We build custom, high performance websites to meet your business needs with a focus on SEO, accessibility and site speed."
+            heading="Your digital needs, fulfilled"
+            img={imgDigitalNeeds}
+            body="White glove service, dollar store prices. We will develop and design your website, handle all your copy and image requirements and host on our content distribution network."
           />
-          <Card
+          <Item
             cdn={loaderData.ENV.CDN}
-            heading="Data & Analytics"
-            img={Hosting}
-            body="From setting up Google Analytics and building out data pipelines to custom web scraping, we can help with all your data needs."
+            heading="We build Websites Brands"
+            img={imgBrand}
+            body="Building a website is easy, building a digital presence is where we add value. If you build it, they won't come. We focus on creating content-based stragies based on your busiess objectives to esure you can compete in your domain."
           />
-          <Card
+          <Item
             cdn={loaderData.ENV.CDN}
-            heading="Digital Marketing"
-            img={Analytics}
-            body="Want to aquire leads through paid media but don't know where to start? We can help run your search, display and social campaigns with any budget."
+            heading="Made with love"
+            img={imgHeartBag}
+            body="Our design philosophy is to create websites that are simple, lovable and complete. Our websites are fully mobile responsible, meet all accessibility standards and are lightening-fast. "
           />
         </div>
       </div>
+
       <div className="wrapper">
         <TextBanner />
       </div>
+
+      <div className="wrapper">
+        <div className="section-title flex">
+          <h1>Pricing</h1>
+        </div>
+        <div className="container">
+          <PricingCard
+            title="Static Site"
+            price="15"
+            items={[
+              { id: 1, active: true, text: "5 pages included" },
+              { id: 2, active: true, text: "Will create copy/images" },
+              { id: 3, active: true, text: "Fully responsive, SEO friendly" },
+              { id: 4, active: true, text: "Hosting and analytics included" },
+              { id: 5, active: false, text: "Contact form" },
+              { id: 6, active: false, text: "Unlimited edits" },
+              { id: 7, active: false, text: "Content management system" },
+              { id: 8, active: false, text: "Ability to edit yourself" },
+              { id: 9, active: false, text: "Unlimited edits" },
+            ]}
+            cta="Learn more"
+          />
+          <PricingCard
+            title="Static Site with Form"
+            price="25"
+            items={[
+              { id: 1, active: true, text: "10 pages included" },
+              { id: 2, active: true, text: "Will create copy/images" },
+              { id: 3, active: true, text: "Fully responsive, SEO friendly" },
+              { id: 4, active: true, text: "Hosting and analytics included" },
+              { id: 5, active: true, text: "Contact form" },
+              { id: 6, active: true, text: "Unlimited edits" },
+              { id: 7, active: false, text: "Content management system" },
+              { id: 8, active: false, text: "Ability to edit yourself" },
+              { id: 9, active: false, text: "Unlimited edits" },
+            ]}
+            cta="Learn more"
+          />
+          <PricingCard
+            title="Content Creator"
+            price="50"
+            items={[
+              { id: 1, active: true, text: "1000 pages included" },
+              { id: 2, active: true, text: "Will create copy/images" },
+              { id: 3, active: true, text: "Fully responsive, SEO friendly" },
+              { id: 4, active: true, text: "Hosting and analytics included" },
+              { id: 5, active: true, text: "Contact form" },
+              { id: 6, active: true, text: "Unlimited edits" },
+              { id: 7, active: true, text: "Content management system" },
+              { id: 8, active: true, text: "Ability to edit yourself" },
+              { id: 9, active: true, text: "Unlimited edits" },
+            ]}
+            cta="Learn more"
+          />
+        </div>
+      </div>
+
       <div className="wrapper">
         <div className="section-title flex">
           <h1>What we do</h1>
@@ -139,6 +213,31 @@ export default function Index() {
           <h1>Our Portfolio</h1>
         </div>
         <Portfolio cdn={loaderData.ENV.CDN} />
+      </div>
+      <div className="wrapper">
+        <div className="section-title flex">
+          <h1>Our Offering</h1>
+        </div>
+        <div className="container">
+          <Card
+            cdn={loaderData.ENV.CDN}
+            heading="Website Development"
+            img={Design}
+            body="We build custom, high performance websites to meet your business needs with a focus on SEO, accessibility and site speed."
+          />
+          <Card
+            cdn={loaderData.ENV.CDN}
+            heading="Data & Analytics"
+            img={Hosting}
+            body="From setting up Google Analytics and building out data pipelines to custom web scraping, we can help with all your data needs."
+          />
+          <Card
+            cdn={loaderData.ENV.CDN}
+            heading="Digital Marketing"
+            img={Analytics}
+            body="Want to aquire leads through paid media but don't know where to start? We can help run your search, display and social campaigns with any budget."
+          />
+        </div>
       </div>
     </>
   )

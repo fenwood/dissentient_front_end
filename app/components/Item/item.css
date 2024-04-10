@@ -1,0 +1,41 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .item img {
+    width: 70px;
+    height: auto;
+} */
+
+.item h3 {
+  margin: 15px auto;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #000;
+}
+
+.item p {
+  text-align: center;
+  color: #646464;
+  margin: 0;
+}
+
+.item img {
+  transition: 0.7s;
+  display: block;
+}
+.item img:hover {
+  transition: 0.7s;
+  transform: rotate(20deg);
+}
+
+@media screen and (min-width: 1080px) {
+  .item {
+    width: 30%;
+    margin: 0;
+  }
+}

@@ -1,10 +1,10 @@
 import {
+  require_jsx_dev_runtime
+} from "/build/_shared/chunk-XU7DNSPJ.js";
+import {
   createHotContext
 } from "/build/_shared/chunk-AXWZE5KF.js";
 import "/build/_shared/chunk-UWV35TSL.js";
-import {
-  require_jsx_dev_runtime
-} from "/build/_shared/chunk-XU7DNSPJ.js";
 import {
   require_react
 } from "/build/_shared/chunk-BOXFZXVX.js";
@@ -390,4 +390,4 @@ var about_default = about;
 export {
   about_default as default
 };
-//# sourceMappingURL=/build/routes/about-EJG6ZIDI.js.map
+//# sourceMappingURL=/build/routes/about-WIYBN75A.js.map
