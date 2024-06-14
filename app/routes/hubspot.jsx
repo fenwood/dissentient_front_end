@@ -8,7 +8,7 @@ const hubspot = () => {
         src={
           "https://meetings.hubspot.com/fenwood?uuid=5b6d2283-cf7b-4f21-8a33-86e94895a74e"
         }
-        frameBorder="0"
+        frameborder="0"
       />
     </div>
   )

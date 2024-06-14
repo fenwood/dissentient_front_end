@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/hubspot.jsx"],
+  "sourcesContent": ["// REMIX HMR BEGIN\nimport * as __hmr__ from \"remix:hmr\";\nif (import.meta) {\nimport.meta.hot = __hmr__.createHotContext(\n//@ts-expect-error\n\"app/routes/hubspot.jsx\"\n);\nimport.meta.hot.lastModified = \"1712778612444.1394\";\n}\n// REMIX HMR END\n\nimport React from \"react\"\n\nconst hubspot = () => {\n  return (\n    <div className=\"container w-100\">\n      <iframe\n        title={\"hubspot\"}\n        src={\n          \"https://meetings.hubspot.com/fenwood?uuid=5b6d2283-cf7b-4f21-8a33-86e94895a74e\"\n        }\n        frameborder=\"0\"\n      />\n    </div>\n  )\n}\n\nexport default hubspot\n"],
+  "mappings": ";;;;;;;;;;;;;AAgBM;AAdN,IAAI,aAAa;AACjB,cAAY,MAAc;AAAA;AAAA,IAE1B;AAAA,EACA;AACA,cAAY,IAAI,eAAe;AAC/B;AAKA,IAAM,UAAU,MAAM;AACpB,SACE,mDAAC,SAAI,WAAU,mBACb;AAAA,IAAC;AAAA;AAAA,MACC,OAAO;AAAA,MACP,KACE;AAAA,MAEF,aAAY;AAAA;AAAA,IALd;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,EAMA,KAPF;AAAA;AAAA;AAAA;AAAA,SAQA;AAEJ;AAEA,IAAO,kBAAQ;",
+  "names": []
+}

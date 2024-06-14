@@ -7,8 +7,8 @@ const SectionContainer = ({ heading, content, img, left, cdn }) => {
   if (left) {
     return (
       <div className="lr-container">
-        <Image src={img} alt={heading} cdn={cdn} />
-        <div className="lr-content">
+        <Image src={img} alt={heading} cdn={cdn} width={300} height={300} />
+        <div className="lr-content mt2">
           <h2>{heading}</h2>
           <p>{content}</p>
         </div>
@@ -17,11 +17,17 @@ const SectionContainer = ({ heading, content, img, left, cdn }) => {
   } else {
     return (
       <div className="lr-container-right">
-        <div className="lr-content">
+        <div className="lr-content mt2">
           <h2>{heading}</h2>
           <p>{content}</p>
         </div>
-        <img src={img} alt={heading} className="src" />
+        <Image
+          src={img}
+          alt={heading}
+          className="src"
+          width={300}
+          height={300}
+        />
       </div>
     )
   }

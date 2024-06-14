@@ -5,7 +5,7 @@ import PricingCard from "../components/PricingCard/PricingCard"
 import Analytics from "../assets/analytics.png"
 import Hosting from "../assets/hosting.png"
 import Design from "../assets/web-design.png"
-import webImage from "../assets/painter.png"
+import webImage from "../assets/web_development.jpg"
 import imgDigitalNeeds from "../assets/digital-needs-100.png"
 import imgRabbit from "../assets/icons8-rabbit-100.png"
 import imgTargets from "../assets/targets-100.png"
@@ -20,6 +20,9 @@ import SectionContainer from "../components/SectionContainer/SectionContainer"
 import hero from "../assets/hero11.jpg"
 import { json } from "@remix-run/node"
 import { useLoaderData } from "@remix-run/react"
+import { useState } from "react"
+import Modal from "../components/Modal/Modal"
+import HubspotMeeting from "../components/HubspotMeeting"
 
 export const meta = () => {
   return [
@@ -51,29 +54,29 @@ const images = [
   "https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   "https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   "https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 ]
 
 const headings = [
   "Welcome to Dissentient Digital. We help small businesses succeed online.",
   "We build custom modern, lightweight and performative websites with you budget in mind without sacrificing quality.",
   "SEO, analytics, hosting, and development - all included.",
-  "4th Heading",
-  "5th Heading",
-  "6th Heading",
+  "Data & Analytics - we can get data from just about any source you can think of and package it in any format you require.",
+  "Digital Marketing - our experts can help with local digital advertising, everything from creative to ad operations.",
 ]
 
-const tagLines = [
-  "First tagline",
-  "2nd tagline",
-  "3rd tagline",
-  "4th tagline",
-  "5th tagline",
-  "6th tagline",
-]
+const tagLines = ["First tagline", "2nd tagline", "3rd tagline", "4", "5"]
 
 export default function Index() {
   const loaderData = useLoaderData()
+
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const openModal = () => {
+    setIsModalOpen(true)
+  }
+  const closeModal = () => {
+    setIsModalOpen(false)
+  }
 
   return (
     <>
@@ -90,9 +93,22 @@ export default function Index() {
             We help small business succeed online without breaking the bank.
             Dissentient specializes in building custom, digital experiences for
             local small businesses that focus on fast, SEO-friendly modern
-            websites that will drive more visibility into your brand.{" "}
+            websites that will drive more visibility into your brand. Want to
+            learn how we can help?{" "}
+            <button
+              type="button"
+              className="btn btn-green"
+              onClick={() => openModal()}
+            >
+              Book a call
+            </button>
           </p>
         </div>
+
+        <section>
+          <HubspotMeeting isModalOpen={isModalOpen} onClose={closeModal} />
+        </section>
+
         <div className="container">
           <Item
             cdn={loaderData.ENV.CDN}
@@ -102,7 +118,7 @@ export default function Index() {
           />
           <Item
             cdn={loaderData.ENV.CDN}
-            heading="We build Websites Brands"
+            heading="We build your digital presence"
             img={imgBrand}
             body="Building a website is easy, building a digital presence is where we add value. If you build it, they won't come. We focus on creating content-based stragies based on your busiess objectives to esure you can compete in your domain."
           />
@@ -214,6 +230,7 @@ export default function Index() {
         </div>
         <Portfolio cdn={loaderData.ENV.CDN} />
       </div>
+      {/* 
       <div className="wrapper">
         <div className="section-title flex">
           <h1>Our Offering</h1>
@@ -238,7 +255,7 @@ export default function Index() {
             body="Want to aquire leads through paid media but don't know where to start? We can help run your search, display and social campaigns with any budget."
           />
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

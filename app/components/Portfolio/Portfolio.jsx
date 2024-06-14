@@ -4,6 +4,7 @@ import PorfolioImage1 from "../../assets/portfolio_memorybooth.png"
 import PorfolioImage2 from "../../assets/portfolio_millenium.png"
 import PorfolioImage3 from "../../assets/portfolio_wineryseeker.png"
 import PorfolioImage4 from "../../assets/portfolio_avintageo.png"
+import PorfolioImage5 from "../../assets/portfolio_circlet.jpg"
 import { Image } from "@unpic/react"
 
 const Portfolio = ({ cdn }) => {
@@ -42,6 +43,15 @@ const Portfolio = ({ cdn }) => {
         "A mobile app splash page for Avintageo, an app that predicts the probability of you liking any wine.",
       technologies: "Plain html",
       link: "https://www.avintageo.com/",
+    },
+    {
+      id: 5,
+      title: "Circle T BBQ",
+      img: PorfolioImage5,
+      description:
+        "A catering website for CircleT BBQ, a small local catering company specializing in hot dogs and smoked meats.",
+      technologies: "Astro",
+      link: "https://circletbbq.com/",
     },
   ]
 
